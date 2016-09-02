@@ -16,9 +16,9 @@
 
   {% include navigation.html %}
 
-  {% if page.profile %}
-      {% include profile.html %}
-  {% endif %}
+    {% if page.profile %}
+        {% include profile.html %}
+    {% endif %}
 
   <section id="wrapper" class="{% if page.profile %}home{% endif %}">
     {{ content }}
