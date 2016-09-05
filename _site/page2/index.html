@@ -32,8 +32,8 @@
     <ul id="post-list">
     
         <li>
-            <span><aside class="dates"><i class="fa fa-calendar-check-o"></i>Nov 11</aside></span>
-            <span><h1>Welcome to Jekyll!</h1><h2><i class="fa fa-commenting-o"></i>Thriller Comedy Horror</h2></span>
+            <span><aside class="dates"><i class="fa fa-calendar-check-o"></i>Nov 12</aside></span>
+            <span><h1>year 2013</h1><h2><i class="fa fa-commenting-o"></i>Thriller Comedy Horror</h2></span>
             <section id="wrapper" >
               <p>You&#39;ll find this post in your <code>_posts</code> directory - edit this post and re-build (or run with the <code>-w</code> switch) to see your changes!
 To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention: YYYY-MM-DD-name-of-post.ext.</p>
@@ -54,24 +54,51 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
 </ul>
 
 
-    <nav id="post-nav">
+    <footer id="post-meta" class="clearfix">
+    <a href="http://twitter.com/YourTwitterUsername">
+        <img class="avatar" src="/assets/images/avatar.png">
+        <div>
+            <span class="dark">Your Name</span>
+            <span>Blogging about stuffs</span>
+        </div>
+    </a>
+
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=http://yourblog-domain.com/page2/ -  by @YourTwitterUsername"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+    </section>
+</footer>
+
+
+<nav id="post-nav">
     
         <span class="prev">
             
                 <a href="/" title="Previous Page">
-                    <span class="arrow">←</span> Newer Posts
+                    <i class="fa fa-arrow-left"></i> Newer Posts
                 </a>
             
         </span>
     
+
+    <a href="/archive"><i class="fa fa-archive"></i> Archive</a>
+
     
         <span class="next">
             <a href="/page3/">
-                Older Posts <span class="arrow">→</span>
+                Older Posts <i class="fa fa-arrow-right"></i>
             </a>
         </span>
     
 </nav>
+
 
 
 <footer id="footer">
